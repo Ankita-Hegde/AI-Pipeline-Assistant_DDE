@@ -1,0 +1,295 @@
+[
+  {
+    "id": "85ddf480-2fb2-47c5-9a30-51bf65505db1",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T18:51:08.433Z",
+    "finishedAt": "2026-02-08T18:51:08.928Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 7:51:08 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770576668439.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nPipeline failed: [Errno 2] No such file or directory: 'credentials.json'\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 62, in <module>\n    run_pipeline()\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 35, in run_pipeline\n    service = get_google_client('credentials.json')\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 11, in get_google_client\n    creds = service_account.Credentials.from_service_account_file(\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/service_account.py\", line 262, in from_service_account_file\n    info, signer = _service_account_info.from_filename(\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/_service_account_info.py\", line 78, in from_filename\n    with io.open(filename, \"r\", encoding=\"utf-8\") as json_file:\nFileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'\n",
+      "\n💥 Pipeline execution failed."
+    ]
+  },
+  {
+    "id": "28c4f471-7c73-4528-b741-d067ca7478b8",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T18:52:23.535Z",
+    "finishedAt": "2026-02-08T18:52:25.216Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 7:52:23 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770576743536.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nPipeline failed: <HttpError 403 when requesting https://sheets.googleapis.com/v4/spreadsheets/1z-qyRrU_5YKqTVTgFxaZnJ8rh_qRsxT7ez9ePpKcv6E/values/sample_sales_data%21A1%3AH1000?alt=json returned \"The caller does not have permission\". Details: \"The caller does not have permission\">\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 62, in <module>\n    run_pipeline()\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 39, in run_pipeline\n    df = read_sheet(service, '1z-qyRrU_5YKqTVTgFxaZnJ8rh_qRsxT7ez9ePpKcv6E', 'sample_sales_data!A1:H1000')\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 18, in read_sheet\n    result = sheet.values().get(spreadsheetId=spreadsheet_id, range=range_name).execute()\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/googleapiclient/_helpers.py\", line 130, in positional_wrapper\n    return wrapped(*args, **kwargs)\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/googleapiclient/http.py\", line 938, in execute\n    raise HttpError(resp, content, uri=self.uri)\ngoogleapiclient.errors.HttpError: <HttpError 403 when requesting https://sheets.googleapis.com/v4/spreadsheets/1z-qyRrU_5YKqTVTgFxaZnJ8rh_qRsxT7ez9ePpKcv6E/values/sample_sales_data%21A1%3AH1000?alt=json returned \"The caller does not have permission\". Details: \"The caller does not have permission\">\n",
+      "\n💥 Pipeline execution failed."
+    ]
+  },
+  {
+    "id": "27aec760-f541-466f-9422-c648265e91d0",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T18:53:57.642Z",
+    "finishedAt": "2026-02-08T18:54:00.055Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 7:53:57 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770576837644.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nApplying transformations...\nPipeline failed: 'Amount'\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py\", line 3812, in get_loc\n    return self._engine.get_loc(casted_key)\n  File \"pandas/_libs/index.pyx\", line 167, in pandas._libs.index.IndexEngine.get_loc\n  File \"pandas/_libs/index.pyx\", line 196, in pandas._libs.index.IndexEngine.get_loc\n  File \"pandas/_libs/hashtable_class_helper.pxi\", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item\n  File \"pandas/_libs/hashtable_class_helper.pxi\", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item\nKeyError: 'Amount'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 62, in <module>\n    run_pipeline()\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 45, in run_pipeline\n    df['Amount'] = df['Amount'].astype(float)  # Convert amount to float\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/pandas/core/frame.py\", line 4113, in __getitem__\n    indexer = self.columns.get_loc(key)\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py\", line 3819, in get_loc\n    raise KeyError(key) from err\nKeyError: 'Amount'\n",
+      "\n💥 Pipeline execution failed."
+    ]
+  },
+  {
+    "id": "95a456f2-4bc9-4fdf-bfa7-77f74368b4bf",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T18:54:42.202Z",
+    "finishedAt": "2026-02-08T18:54:44.367Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 7:54:42 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770576882204.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nColumns available: order_id, product_name, customer_name, unit_price, quantity, discount_rate, order_date\nApplying transformations...\nWriting data to destination...\nPipeline failed: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1z-qyRrU_5YKqTVTgFxaZnJ8rh_qRsxT7ez9ePpKcv6E/values/output%21A1?valueInputOption=USER_ENTERED&alt=json returned \"Unable to parse range: output!A1\". Details: \"Unable to parse range: output!A1\">\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 77, in <module>\n    run_pipeline()\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 68, in run_pipeline\n    write_sheet(service, '1z-qyRrU_5YKqTVTgFxaZnJ8rh_qRsxT7ez9ePpKcv6E', 'output!A1', df)\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py\", line 28, in write_sheet\n    service.spreadsheets().values().update(\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/googleapiclient/_helpers.py\", line 130, in positional_wrapper\n    return wrapped(*args, **kwargs)\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/googleapiclient/http.py\", line 938, in execute\n    raise HttpError(resp, content, uri=self.uri)\ngoogleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1z-qyRrU_5YKqTVTgFxaZnJ8rh_qRsxT7ez9ePpKcv6E/values/output%21A1?valueInputOption=USER_ENTERED&alt=json returned \"Unable to parse range: output!A1\". Details: \"Unable to parse range: output!A1\">\n",
+      "\n💥 Pipeline execution failed."
+    ]
+  },
+  {
+    "id": "b2328f39-1476-405c-b9d4-31847512b51e",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T18:55:59.562Z",
+    "finishedAt": "2026-02-08T18:56:04.891Z",
+    "status": "succeeded",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 7:55:59 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770576959563.log",
+      "\n━━━ Python Execution Output ━━━",
+      "/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nColumns available: order_id, product_name, customer_name, unit_price, quantity, discount_rate, order_date\nApplying transformations...\nWriting data to destination...\nCreating new sheet 'output'...\n✓ Created new sheet 'output' and wrote data\nPipeline completed successfully!\n",
+      "\n━━━ Python Execution Complete ━━━",
+      "✅ Generated code executed successfully",
+      "\n🎉 Pipeline execution completed successfully!",
+      "⏱️  Finished at: 2/8/2026, 7:56:04 PM"
+    ]
+  },
+  {
+    "id": "2b140afd-9ca6-4a25-8fa1-f12f1347ac66",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T18:57:47.123Z",
+    "finishedAt": "2026-02-08T18:57:49.615Z",
+    "status": "succeeded",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 7:57:47 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770577067124.log",
+      "\n━━━ Python Execution Output ━━━",
+      "/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nColumns available: order_id, product_name, customer_name, unit_price, quantity, discount_rate, order_date\nApplying transformations...\nWriting data to destination...\n✓ Data written to 'output' sheet\nPipeline completed successfully!\n",
+      "\n━━━ Python Execution Complete ━━━",
+      "✅ Generated code executed successfully",
+      "\n🎉 Pipeline execution completed successfully!",
+      "⏱️  Finished at: 2/8/2026, 7:57:49 PM"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 2492
+    }
+  },
+  {
+    "id": "6c4e0825-1522-4fd4-8d95-f5e7be6a660d",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T19:01:03.707Z",
+    "finishedAt": "2026-02-08T19:01:05.792Z",
+    "status": "succeeded",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 8:01:03 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770577263709.log",
+      "\n━━━ Python Execution Output ━━━",
+      "/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nColumns available: order_id, product_name, customer_name, unit_price, quantity, discount_rate, order_date\nApplying transformations...\nWriting data to destination...\n✓ Data written to 'output' sheet\nPipeline completed successfully!\n",
+      "\n━━━ Python Execution Complete ━━━",
+      "✅ Generated code executed successfully",
+      "\n🎉 Pipeline execution completed successfully!",
+      "⏱️  Finished at: 2/8/2026, 8:01:05 PM"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 2085
+    }
+  },
+  {
+    "id": "54a7878f-81ea-4154-a24e-81d8c76ff553",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T19:06:05.124Z",
+    "finishedAt": "2026-02-08T19:06:07.566Z",
+    "status": "succeeded",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 8:06:05 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770577565127.log",
+      "\n━━━ Python Execution Output ━━━",
+      "/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nColumns available: order_id, product_name, customer_name, unit_price, quantity, discount_rate, order_date\nApplying transformations...\nWriting data to destination...\n✓ Data written to 'output' sheet\nPipeline completed successfully!\n",
+      "\n━━━ Python Execution Complete ━━━",
+      "✅ Generated code executed successfully",
+      "\n🎉 Pipeline execution completed successfully!",
+      "⏱️  Finished at: 2/8/2026, 8:06:07 PM"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 2442
+    }
+  },
+  {
+    "id": "c643df14-626f-40ff-8a74-e5bc56557033",
+    "pipelineId": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "startedAt": "2026-02-08T19:16:39.440Z",
+    "finishedAt": "2026-02-08T19:16:42.072Z",
+    "status": "succeeded",
+    "logs": [
+      "🚀 Starting pipeline execution: \"sales_data_pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 8:16:39 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/e1af8e94-f2b1-478a-85a0-ef914b7f8434/logs/execution_1770578199459.log",
+      "\n━━━ Python Execution Output ━━━",
+      "/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nReading data from source...\nLoaded 25 rows\nColumns available: order_id, product_name, customer_name, unit_price, quantity, discount_rate, order_date\nApplying transformations...\nWriting data to destination...\n✓ Data written to 'output' sheet\nPipeline completed successfully!\n",
+      "\n━━━ Python Execution Complete ━━━",
+      "✅ Generated code executed successfully"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 2631
+    }
+  },
+  {
+    "id": "014bf992-3dd8-4255-827f-e3f3486b4c2b",
+    "pipelineId": "1a8e57fb-c35f-4a73-b066-a0fe75db66a5",
+    "startedAt": "2026-02-08T21:05:12.715Z",
+    "finishedAt": "2026-02-08T21:05:13.307Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"Sales Data Processing Pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 10:05:12 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/logs/execution_1770584712736.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py\", line 6, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'\n"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 591
+    }
+  },
+  {
+    "id": "0341c2d9-4e4c-42b1-83f2-b027af03300e",
+    "pipelineId": "1a8e57fb-c35f-4a73-b066-a0fe75db66a5",
+    "startedAt": "2026-02-08T21:05:31.200Z",
+    "finishedAt": "2026-02-08T21:05:31.767Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"Sales Data Processing Pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 10:05:31 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/logs/execution_1770584731203.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py\", line 6, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'\n"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 566
+    }
+  },
+  {
+    "id": "5b1ba3f2-f54b-483f-92ab-8c62bc5e70c6",
+    "pipelineId": "1a8e57fb-c35f-4a73-b066-a0fe75db66a5",
+    "startedAt": "2026-02-08T21:08:41.180Z",
+    "finishedAt": "2026-02-08T21:08:41.743Z",
+    "status": "failed",
+    "logs": [
+      "🚀 Starting pipeline execution: \"Sales Data Processing Pipeline\"",
+      "📊 Total steps: 0",
+      "⏰ Started at: 2/8/2026, 10:08:41 PM",
+      "\n🤖 Detected AI-generated pipeline - executing custom Python code...",
+      "📋 Credentials copied to pipeline directory",
+      "📝 Python script: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py",
+      "📁 Log output: /Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/logs/execution_1770584921182.log",
+      "\n━━━ Python Execution Output ━━━",
+      "\n❌ Python execution failed:",
+      "Command failed: \"/Users/ankitahegde/Desktop/DDE/dde project/.venv/bin/python\" \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py\" 2>&1\n",
+      "\nStdout:\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.\n  warnings.warn(eol_message.format(\"3.9\"), FutureWarning)\n/Users/ankitahegde/Desktop/DDE/dde project/.venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.\n  warnings.warn(message, FutureWarning)\nTraceback (most recent call last):\n  File \"/Users/ankitahegde/Desktop/DDE/dde project/ai-pipeline-assistant/pipeline_artifacts/1a8e57fb-c35f-4a73-b066-a0fe75db66a5/pipeline.py\", line 6, in <module>\n    import mysql.connector\nModuleNotFoundError: No module named 'mysql'\n"
+    ],
+    "metrics": {
+      "rowsProcessed": 0,
+      "transformationsApplied": 0,
+      "dataWritten": 0,
+      "executionTime": 562
+    }
+  }
+]

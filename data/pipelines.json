@@ -1,0 +1,53 @@
+[
+  {
+    "id": "e1af8e94-f2b1-478a-85a0-ef914b7f8434",
+    "name": "sales_data_pipeline",
+    "description": "Pipeline to process sales data by removing null values, converting amount to float, adding processing date, removing duplicates, and aggregating monthly sales",
+    "ownerEmail": "admin@company.com",
+    "status": "active",
+    "trigger": "scheduled",
+    "schedule": "0 9 * * *",
+    "createdAt": "2026-02-08T18:45:59.690Z",
+    "updatedAt": "2026-02-08T19:16:42.071Z",
+    "version": 19,
+    "steps": []
+  },
+  {
+    "id": "2c00c896-79c6-4a8d-a164-31542c8724b7",
+    "name": "Employee Data Cleaning Pipeline",
+    "description": "Simple pipeline to clean employee data from sheets",
+    "ownerEmail": "admin@company.com",
+    "status": "draft",
+    "trigger": "manual",
+    "createdAt": "2026-02-08T19:22:16.464Z",
+    "updatedAt": "2026-02-08T19:22:16.464Z",
+    "version": 1,
+    "steps": []
+  },
+  {
+    "id": "1a8e57fb-c35f-4a73-b066-a0fe75db66a5",
+    "name": "Sales Data Processing Pipeline",
+    "description": "Extract sales data from Google Sheets, clean and aggregate it, then load to MySQL database",
+    "ownerEmail": "admin@company.com",
+    "status": "failed",
+    "trigger": "scheduled",
+    "schedule": "0 9 * * *",
+    "createdAt": "2026-02-08T19:35:08.501Z",
+    "updatedAt": "2026-02-08T21:08:41.742Z",
+    "version": 7,
+    "steps": []
+  },
+  {
+    "id": "64f51500-e4f2-4b28-a595-779bf3d7800e",
+    "name": "Sales Data Processing Pipeline",
+    "description": "Extract sales data from Google Sheets, clean and aggregate it, then load to MySQL database",
+    "ownerEmail": "admin@company.com",
+    "status": "draft",
+    "trigger": "scheduled",
+    "schedule": "0 9 * * *",
+    "createdAt": "2026-02-08T20:24:04.447Z",
+    "updatedAt": "2026-02-08T20:24:04.447Z",
+    "version": 1,
+    "steps": []
+  }
+]
