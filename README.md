@@ -49,7 +49,7 @@ An intelligent, role-based data pipeline builder that enables users to design, c
 
 ```bash
 git clone <repository-url>
-cd ai-pipeline-assistant
+cd AI-Pipeline-Assistant_DDE
 npm install
 ```
 
